@@ -10,7 +10,7 @@ This project simulates a brute-force and a network-based attack in a Windows env
 ## 🧪 Attack Scenario
 - Brute-force login attempt via Hydra
 - TCP port scanning via Nmap
-- something via Metasploit
+- Reverse shell execution via Metasploit
 
 ## 📊 Dashboards
 
