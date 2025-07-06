@@ -1,7 +1,3 @@
-# homelab
-Simulated an attack detection home lab using a Windows 10 VM, Windows 2019 server VM, Kali Linux VM, and Splunk dashboards.
-----------
-
 # 🛡️ Windows Attack Detection Lab
 
 This project simulates a brute-force and a network-based attack in a Windows environment, capturing logs with Sysmon, WinEventLog, and Firewall logs, and visualizing them using Splunk.
