@@ -22,7 +22,7 @@ This project simulates a brute-force and a network-based attack in a Windows env
 
 ### 2. Sysmon Process Monitoring
 - **Sourcetype**: `WinEventLog:Microsoft-Windows-Sysmon/Operational`
-- **Panel 1**: Timechart for all process
+- **Panel 1**: Timechart for all processes
 - **Panel 2**: Top 10 processes by name
 - **Panel 3**: Parent-child process pairings
 - **Panel 4**: Most common command-line arguments
