@@ -35,7 +35,7 @@ This project simulates a brute-force and a network-based attack in a Windows env
 - **Panel 4**: Allow vs drop comparison
 
 ## 🛠️ Setup Instructions
-See [`setup_instructions.txt`](setup_instructions.txt) for full Splunk, Sysmon, and log forwarding configuration steps.
+See [`setup_instructions.md`](setup_instructions.md) for full Splunk, Sysmon, and log forwarding configuration steps.
 
 ## 📸 Screenshots
 All dashboards are available in the [`dashboards/`](dashboards/) folder. All VM settings are available in the [`VM_settings/`](VM_settings/) folder. All Splunk searches are available in the [`search/`](search/) folder. All simulated attacks are available in the [`kali_terminal/`](kali_terminal/) folder.
