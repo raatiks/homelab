@@ -38,7 +38,7 @@ This project simulates a brute-force and a network-based attack in a Windows env
 See [`setup_instructions.md`](setup_instructions.md) for full Splunk, Sysmon, and log forwarding configuration steps.
 
 ## 📸 Screenshots
-All dashboards are available in the `dashboard_screenshots/` folder.
+All dashboards are available in the `dashboards/` folder.
 
 ## 🔍 Why This Matters
 This lab proves your ability to:
