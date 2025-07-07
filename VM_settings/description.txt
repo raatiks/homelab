@@ -1,0 +1,1 @@
+This folder shows the settings (Disk size, Network adapter, Processor and memory, and the VM name along with the OS type) for the three different VMs (Windows 10, Kali Linux, and Windows Server 2019).
