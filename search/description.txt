@@ -1,1 +1,1 @@
-Basfsdf
+This folder confirms that logs for the detection categories (brute-force detection, process monitoring (Sysmon), and firewall events) were successfully forwarded.
