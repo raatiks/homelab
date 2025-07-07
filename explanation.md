@@ -24,7 +24,7 @@ Sysmon, Windows Event Logs, and Firewall logs are collected from the Windows 10 
 
 ---
 
-## 1. 🛡️ Brute-Force Detection
+## 1. Brute-Force Detection
 
 ### What You Did
 - Simulated login attacks using **Hydra**.
@@ -40,7 +40,7 @@ Sysmon, Windows Event Logs, and Firewall logs are collected from the Windows 10 
 
 ---
 
-## 2. 🔬 Sysmon Process Monitoring
+## 2. Sysmon Process Monitoring
 
 ### What You Did
 - Installed **Sysmon** with a hardened config.
@@ -59,7 +59,7 @@ Sysmon, Windows Event Logs, and Firewall logs are collected from the Windows 10 
 
 ---
 
-## 3. 🌐 Firewall Log Monitoring
+## 3. Firewall Log Monitoring
 
 ### What You Did
 - Enabled Windows Defender Firewall logging.
@@ -77,7 +77,7 @@ Sysmon, Windows Event Logs, and Firewall logs are collected from the Windows 10 
 
 ---
 
-## 4. ⚙️ SIEM Integration and Data Ingestion
+## 4. SIEM Integration and Data Ingestion
 
 ### What You Did
 - Deployed **Splunk Enterprise** on Server 2019.
@@ -93,7 +93,7 @@ Sysmon, Windows Event Logs, and Firewall logs are collected from the Windows 10 
 
 ---
 
-## 5. 🧪 Attack Simulation
+## 5. Attack Simulation
 
 ### What You Did
 - **Hydra**: Simulated password guessing.
@@ -116,7 +116,7 @@ These are fundamental capabilities for threat detection, blue teaming, and incid
 
 ---
 
-## ✅ Skills Demonstrated
+## Skills Demonstrated
 
 - VM provisioning and network isolation
 - Splunk configuration and log ingestion
@@ -126,7 +126,7 @@ These are fundamental capabilities for threat detection, blue teaming, and incid
 
 ---
 
-## 📚 Knowledge Areas Covered
+## Knowledge Areas Covered
 
 - MITRE ATT&CK Techniques:
   - T1110: Brute-force
