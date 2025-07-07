@@ -47,7 +47,10 @@ This lab proves your ability to:
 - Build effective detection content in Splunk
 
 ## 📚 References
-- MITRE ATT&CK
-- Windows Event ID 4625
-- Sysmon Event ID 1, 3, 11
+- [`MITRE ATT&CK`](https://attack.mitre.org)
+- [`Windows Event ID 4625`](https://learn.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4625)
+- Sysmon Event ID [`1`](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-1-process-creation), [`3`](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-3-network-connection), [`11`](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon#event-id-11-filecreate)
 - Microsoft Defender + Firewall logging
+-   [`Defender Overview (Microsoft Defender for Endpoint)`](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide)
+-   [`Windows Firewall Logging Setup`](https://learn.microsoft.com/en-us/windows/security/operating-system-security/network-security/windows-firewall/configure-logging?tabs=intune)
+-   [`Firewall Log File Format (pfirewall.log)`](https://www.exabeam.com/explainers/event-logging/firewall-logs/)
