@@ -32,13 +32,13 @@ This project simulates a brute-force and a network-based attack in a Windows env
 - **Panel 1**: Timechart of firewall events
 - **Panel 2**: Top blocked destination ports
 - **Panel 3**: Top source IPs
-- **Panel 3**: Allow vs drop comparison
+- **Panel 4**: Allow vs drop comparison
 
 ## 🛠️ Setup Instructions
 See [`setup_instructions.md`](setup_instructions.md) for full Splunk, Sysmon, and log forwarding configuration steps.
 
 ## 📸 Screenshots
-All dashboards are available in the `dashboards/` folder.
+All dashboards are available in the [`dashboards/`](dashboards/) folder.
 
 ## 🔍 Why This Matters
 This lab proves your ability to:
