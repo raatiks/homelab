@@ -10,10 +10,10 @@ This is a walk-through on how to set up and connect everything so that you can d
 | SIEM (ex: Splunk Enterprise)   | Collects, searches, alerts on logs, and builds dashboards                |
 | Log Forwarder (ex: Splunk Forwarder) | Sends logs from a source machine to the SIEM system                  |
 
-Make sure you write down the usernames and passwords for all the accounts (Kali Linux, Windows 10, Windows Server 2019, Splunk Enterprise, and Splunk Forwarder). Also record the IP addresses of the VMs.
+Make sure you write down the usernames and passwords for all the accounts (Kali Linux, Windows 10, Windows Server 2019, Splunk Enterprise, and Splunk Forwarder). Also, record the IP addresses of the VMs.
 
 ## 1. Setting Up the Virtual Environment
-- **Hypervisor**: Choose one and install it. Any of these will work: VirtualBox, VMware Workstation, VMware Fusion. Just don’t run multiple hypervisors on the same host unless you enjoy debugging virtual hardware issues.
+- **Hypervisor**: Choose one and install it. Any of these will work: VirtualBox, VMware Workstation, VMware Fusion. Avoid running multiple hypervisors on the same host to prevent conflicts with virtual hardware.
 - **ISO Files**: Download and keep these handy:
   - [`Kali Linux`](https://cdimage.kali.org/kali-2025.2/kali-linux-2025.2-installer-amd64.iso)
   - [`Windows 10`](https://www.microsoft.com/en-us/software-download/windows10ISO)
@@ -141,4 +141,4 @@ w32tm /query /status
 
 ---
 
-That’s it. The lab setup is complete and operational.
+At this point, the lab is fully operational and ready for attack simulations and telemetry collection.
