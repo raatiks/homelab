@@ -1,9 +1,9 @@
 # 🛡️ Windows Attack Detection Lab
 
-This project simulates a brute-force and a network-based attack in a Windows environment, capturing logs with Sysmon, WinEventLog, and Firewall logs, and visualizing them using Splunk.
+This project simulated both a brute-force and a network-based attack in a Windows environment, capturing logs using Sysmon, WinEventLog, and Firewall logs, and visualizing them with Splunk.
 
 ## 🔧 Lab Components
-- **Kali Linux VM**: Used to simulate attacks (Hydra, Nmap, Metasploit)
+- **Kali Linux VM**: Used to simulate attacks (Hydra, Nmap, and Metasploit)
 - **Windows 10 VM**: Target endpoint with Sysmon and Splunk Forwarder installed
 - **Windows Server 2019 VM**: Hosts Splunk Enterprise
 
@@ -18,7 +18,7 @@ This project simulates a brute-force and a network-based attack in a Windows env
 - **Sourcetype**: `WinEventLog:Security`
 - **Panel 1**: Timechart of failed logins
 - **Panel 2**: Top 5 targeted usernames
-- **Panel 3**: Top IP's for failed logins
+- **Panel 3**: Top IPs for failed logins
 
 ### 2. Sysmon Process Monitoring
 - **Sourcetype**: `WinEventLog:Microsoft-Windows-Sysmon/Operational`
@@ -35,13 +35,13 @@ This project simulates a brute-force and a network-based attack in a Windows env
 - **Panel 4**: Allow vs drop comparison
 
 ## 🛠️ Setup Instructions
-See [`setup_instructions.md`](setup_instructions.md) for full Splunk, Sysmon, and log forwarding configuration steps.
+Detailed configuration for Splunk, Sysmon, and log forwarding is in [`setup_instructions.md`](setup_instructions.md).
 
 ## 📸 Screenshots
-All dashboards are available in the [`dashboards/`](dashboards/) folder. All VM settings are available in the [`VM_settings/`](VM_settings/) folder. All Splunk searches are available in the [`search/`](search/) folder. All simulated attacks are available in the [`kali_terminal/`](kali_terminal/) folder.
+Dashboards, VM configs, Splunk searches, and attack terminals are available in their respective folders: [`dashboards/`](dashboards/), [`VM_settings/`](VM_settings/), [`search/`](search/), [`kali_terminal/`](kali_terminal/).
 
-## 🔍 Why This Matters
-This lab proves your ability to:
+## 🔍 What This Lab Demonstrated
+This lab helped me understand how to:
 - Simulate realistic attacks
 - Capture multi-source telemetry
 - Build effective detection content in Splunk
