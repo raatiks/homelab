@@ -2,7 +2,7 @@ This file was made to create the dashboards folder
 
 Below are the SPL commands used to make the dashboards:
 
-1. Brute Force Detection
+## 1. Brute Force Detection
 - Panel 1: Timechart of failed logins
 
 index=* sourcetype="WinEventLog:Security" EventCode=4625 | timechart span=1m count
@@ -15,7 +15,7 @@ index=* sourcetype="WinEventLog:Security" EventCode=4625 | top Workstation_Name 
 
 index=* sourcetype="WinEventLog:Security" EventCode=4625 | top Source_Network_Address limit=5
 
-2. Sysmon Process Monitoring
+## 2. Sysmon Process Monitoring
 - Panel 1: Timechart for all processes
   
 index=* sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 | timechart span=1m count
@@ -32,7 +32,7 @@ index=* sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=
   
 index=* sourcetype="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1 | top CommandLine limit=10
 
-3. Firewall Log Monitoring
+## 3. Firewall Log Monitoring
 - Panel 1: Timechart of firewall events
   
 index=* sourcetype="WinFirewallLog" | rex field=_raw "^(?<action>\S+)" | timechart span=1m count by action
