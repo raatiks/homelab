@@ -1,5 +1,3 @@
-This file was made to create the dashboards folder
-
 Below are the SPL commands used to make the dashboards:
 
 ## 1. Brute Force Detection
